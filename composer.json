@@ -1,0 +1,55 @@
+{
+  "name": "zvanoz/laminas-for-analise",
+  "description": "Загружаем либы для анализа в отдельном окне",
+  "type": "project",
+  "license": "@TODO: DIO License",
+  "keywords": [
+    "laminas"
+  ],
+  "minimum-stability": "rc",
+  "config" : {
+    "secure-http": false,
+    "allow-plugins": true,
+    "platform": {
+      "php":"8.1"
+    }
+  },
+  "require": {
+    "laminas/laminas-cache-storage-adapter-test": "*",
+    "laminas/laminas-developer-tools": "*",
+    "laminas/laminas-cli": "*",
+    "laminas/laminas-stdlib": "*",
+    "laminas/laminas-component-installer": "*",
+    "laminas/laminas-development-mode": "*",
+    "laminas/laminas-db": "*",
+    "laminas/laminas-mvc": "*",
+    "laminas/laminas-session": "*",
+    "laminas/laminas-authentication": "*",
+    "laminas/laminas-diactoros": "*",
+    "laminas/laminas-cache": "*",
+    "laminas/laminas-cache-storage-adapter-filesystem": "*",
+    "laminas/laminas-cache-storage-adapter-blackhole": "*",
+    "laminas/laminas-cache-storage-adapter-memory": "*",
+    "laminas/laminas-cache-storage-adapter-memcached": "^2",
+    "laminas/laminas-cache-storage-adapter-session": "*",
+    "laminas/laminas-cache-storage-adapter-redis": "*",
+    "laminas/laminas-serializer": "*"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+    }
+  },
+  "scripts": {
+    "composer-install" : "composer update -v --ignore-platform-req=ext-*",
+    "composer-update" : "composer update -v --ignore-platform-req=ext-*",
+    "composer-fund" : "composer fund"
+  },
+  "scripts-descriptions": {
+  }
+}
