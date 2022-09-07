@@ -2,8 +2,9 @@
   "name": "zvanoz/laminas-for-analise",
   "description": "Загружаем либы для анализа в отдельном окне",
   "type": "project",
-  "license": "@TODO: DIO License",
+  "license": "Apache-2.0",
   "keywords": [
+    "ZVanoZ",
     "laminas"
   ],
   "minimum-stability": "rc",
